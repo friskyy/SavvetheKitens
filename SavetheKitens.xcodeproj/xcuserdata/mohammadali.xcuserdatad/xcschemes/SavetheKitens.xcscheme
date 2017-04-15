@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5045365C1EA24DE30009C85B"
+               BuildableName = "SavetheKitens.app"
+               BlueprintName = "SavetheKitens"
+               ReferencedContainer = "container:SavetheKitens.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "504536701EA24DE30009C85B"
+               BuildableName = "SavetheKitensTests.xctest"
+               BlueprintName = "SavetheKitensTests"
+               ReferencedContainer = "container:SavetheKitens.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5045367B1EA24DE30009C85B"
+               BuildableName = "SavetheKitensUITests.xctest"
+               BlueprintName = "SavetheKitensUITests"
+               ReferencedContainer = "container:SavetheKitens.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5045365C1EA24DE30009C85B"
+            BuildableName = "SavetheKitens.app"
+            BlueprintName = "SavetheKitens"
+            ReferencedContainer = "container:SavetheKitens.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5045365C1EA24DE30009C85B"
+            BuildableName = "SavetheKitens.app"
+            BlueprintName = "SavetheKitens"
+            ReferencedContainer = "container:SavetheKitens.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5045365C1EA24DE30009C85B"
+            BuildableName = "SavetheKitens.app"
+            BlueprintName = "SavetheKitens"
+            ReferencedContainer = "container:SavetheKitens.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
